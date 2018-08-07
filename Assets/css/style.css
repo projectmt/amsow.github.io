@@ -270,12 +270,15 @@ and (max-device-width : 667px) {
     transition: all 0.35s;
     min-height: 550px;
   }
+
   .amsow-h p {
     font-size: 40px;
   }
+
   .amsow-main p {
     font-size: 70px;
   }
+
   .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
@@ -285,6 +288,7 @@ and (max-device-width : 667px) {
     line-height: inherit;
     white-space: nowrap;
   }
+
   .navbar-toggler-icon {
     display: inline-block;
     width: 3em;
@@ -294,28 +298,28 @@ and (max-device-width : 667px) {
     background: no-repeat center center;
     background-size: 100% 100%;
   }
+
   .navbar-light .navbar-nav .nav-link {
     color: rgba(0,0,0,.5);
     font-size: 40px;
   }
+
   .hovereffect h2 {
     font-size: 40px;
   }
+
   .hovereffect a, .hovereffect p {
     font-size: 30px;
   }
+
   .amsow-header {
     padding-top: 60px;
   }
-  .amsow-grid img {
-    margin-left: auto;
-    margin-right: auto;
-    height: 300px;
-    width: 300px;
-  }
+
   .amsow-pheader {
     font-size: 60px;
   }
+
   .amsow-pheader p {
     font-size: 30px;
   }
