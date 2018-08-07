@@ -307,4 +307,16 @@ and (max-device-width : 667px) {
   .amsow-header {
     padding-top: 60px;
   }
+  .amsow-grid img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+  }
+  .amsow-pheader {
+    font-size: 60px;
+  }
+  .amsow-pheader p {
+    font-size: 30px;
+  }
 }
