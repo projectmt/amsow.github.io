@@ -298,4 +298,10 @@ and (max-device-width : 667px) {
     color: rgba(0,0,0,.5);
     font-size: 40px;
   }
+  .hovereffect h2 {
+    font-size: 40px;
+  }
+  .hovereffect a, .hovereffect p {
+    font-size: 30px;
+  }
 }
