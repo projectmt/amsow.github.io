@@ -38,6 +38,7 @@ body {
 
 .amsow-h a:hover {
   color:#989898;
+  text-decoration:none;
 }
 
 .amsow-main p {
@@ -72,6 +73,26 @@ body {
 
 .amsow-temp {
   min-height: 500px;
+}
+
+.code-button {
+  width:120px;
+  margin:auto;
+}
+
+.code-button p {
+  border:1px solid black;
+  padding:10px 20px 10px 20px;
+  font-size:13px;
+  color:black;
+}
+
+.code-button p:hover {
+  border:1px solid black;
+  padding:10px 20px 10px 20px;
+  font-size:13px;
+  color:white;
+  background-color:#404040;
 }
 
 .navbar-brand {
@@ -279,6 +300,10 @@ and (max-device-width : 667px) {
     font-size: 70px;
   }
 
+  .amsow-2 p {
+    font-size: 40px;
+  }
+
   .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
@@ -341,5 +366,17 @@ and (max-device-width : 667px) {
   .amsow-brand {
     width:100px;
     height:100px;
+  }
+
+  .code-button p {
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    color: black;
+  }
+
+  .code-button {
+    width: 200px;
+    margin: auto;
   }
 }
