@@ -320,7 +320,21 @@ and (max-device-width : 667px) {
     font-size: 60px;
   }
 
-  .amsow-pheader p {
-    font-size: 30px;
+  .about-me {
+    font-size: 45px;
+  }
+
+  .profile-img {
+    padding-bottom:30px;
+  }
+  
+  .profile-img img{
+    width: 300px;
+    height: 300px;
+  }
+
+  .amsow-psub p {
+    padding-top:30px;
+    font-size: 40px;
   }
 }
