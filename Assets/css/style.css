@@ -2,6 +2,11 @@ body {
   background-color:#f9f9f9;
 }
 
+.amsow-grid img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .fab {
   font-size: 30px;
   padding-right:10px;
@@ -12,6 +17,11 @@ body {
   font-size: 30px;
   padding-right:10px;
   padding-left:10px;
+}
+
+.profile-img {
+  padding-top:20px;
+  text-align:center;
 }
 
 .amsow-h {
@@ -28,6 +38,27 @@ body {
 
 .amsow-h a:hover {
   color:#989898;
+}
+
+.amsow-pheader {
+  font-size:25px;
+}
+
+.amsow-psub {
+  font-size:20px;
+  text-align:center;
+}
+
+.amsow-psub i {
+  color:#404040;
+}
+
+.amsow-psub i:hover {
+  color:#989898;
+}
+
+.amsow-temp {
+  min-height: 500px;
 }
 
 .navbar-brand {
