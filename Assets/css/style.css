@@ -291,8 +291,8 @@ and (max-device-width : 667px) {
 
   .navbar-toggler-icon {
     display: inline-block;
-    width: 3em;
-    height: 3em;
+    width: 4em;
+    height: 4em;
     vertical-align: middle;
     content: "";
     background: no-repeat center center;
