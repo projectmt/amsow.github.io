@@ -40,6 +40,14 @@ body {
   color:#989898;
 }
 
+.amsow-main p {
+  font-size:40px;
+}
+
+.amsow-2 p {
+  padding-bottom:20px;
+}
+
 .amsow-pheader {
   font-size:25px;
 }
@@ -143,7 +151,6 @@ body {
     background-clip: padding-box;
     border: 1px solid #ccc;
     border: 1px solid rgba(0,0,0,.15);
-    border-radius: 4px;
     -webkit-box-shadow: 0;
     box-shadow: 0;
   }
@@ -235,4 +242,18 @@ body {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
   text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .fab {
+    font-size: 100px;
+    padding-right:10px;
+    padding-left:10px;
+  }
+
+  .fas {
+    font-size: 100px;
+    padding-right:10px;
+    padding-left:10px;
+  }
 }
