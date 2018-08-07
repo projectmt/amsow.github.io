@@ -44,6 +44,11 @@ body {
   font-size:40px;
 }
 
+.amsow-main2 p {
+  font-size:30px;
+  text-align: center;
+}
+
 .amsow-2 p {
   padding-bottom:20px;
 }
@@ -244,16 +249,53 @@ body {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
   .fab {
-    font-size: 100px;
-    padding-right:10px;
-    padding-left:10px;
+    font-size: 70px;
+    padding-right:15px;
+    padding-left:15px;
   }
 
   .fas {
-    font-size: 100px;
-    padding-right:10px;
-    padding-left:10px;
+    font-size: 70px;
+    padding-right:15px;
+    padding-left:15px;
+  }
+  .hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+    min-height: 550px;
+  }
+  .amsow-h p {
+    font-size: 40px;
+  }
+  .amsow-main p {
+    font-size: 70px;
+  }
+  .navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 2.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+    font-size: 40px;
   }
 }
