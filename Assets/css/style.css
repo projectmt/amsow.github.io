@@ -304,4 +304,7 @@ and (max-device-width : 667px) {
   .hovereffect a, .hovereffect p {
     font-size: 30px;
   }
+  .amsow-header {
+    padding-top: 60px;
+  }
 }
