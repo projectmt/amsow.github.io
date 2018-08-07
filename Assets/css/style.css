@@ -2,6 +2,38 @@ body {
   background-color:#f9f9f9;
 }
 
+.fab {
+  font-size: 30px;
+  padding-right:10px;
+  padding-left:10px;
+}
+
+.fas {
+  font-size: 30px;
+  padding-right:10px;
+  padding-left:10px;
+}
+
+.amsow-h {
+  text-align:center;
+}
+
+.amsow-h a {
+  color:#404040;
+}
+
+.amsow-h p {
+  font-size:20px;
+}
+
+.amsow-h a:hover {
+  color:#989898;
+}
+
+.navbar-brand {
+  padding-left:10px;
+}
+
 .amsow-header {
   background-color:#f9f9f9;
   padding-left:100px;
@@ -9,8 +41,21 @@ body {
   padding-top:20px;
 }
 
+.amsow-footer {
+  padding-left:100px;
+  padding-right:100px;
+}
+
+.amsow-footer p{
+  font-size:14px;
+}
+
 .amsow-right li {
   padding-left: 20px 0 20px 0;
+}
+
+.amsow-title {
+  text-align:center;
 }
 
 /* Effect 1: Brackets */
