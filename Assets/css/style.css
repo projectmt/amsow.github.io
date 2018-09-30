@@ -363,7 +363,7 @@ and (max-device-width : 667px) {
     font-size: 40px;
   }
 
-  .amsow-brand {
+  a .amsow-brand {
     height:50px;
     padding-left:20px;
   }
